@@ -1,20 +1,24 @@
 .nav {
-    position: static;
+    position: sticky;
     top: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 60px;
     background-color: transparent;
+    z-index: 999;
 }
 
 .nav__logo {
-    width: 200px;
-    height: 200px;
+    position: relative;
+    width: 80px;
     object-fit: contain;
+    margin-left: 30px;
 }
 
 .nav__avatar {
+    position: relative;
     width: 30px;
     height: 30px;
     object-fit: contain;
