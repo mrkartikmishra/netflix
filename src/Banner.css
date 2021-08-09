@@ -1,0 +1,57 @@
+.banner {
+    height: 448px;
+    color: #ffffff;
+    object-fit: contain;
+}
+
+.banner__container {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 90px;
+}
+
+.banner__container__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner__container__button {
+    cursor: pointer;
+    color: #ffffff;
+    outline: none;
+    background-color: rgb(51, 51, 51, 0.5);
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.banner__container__button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition: all 0.2s;
+}
+
+.banner__container__overview {
+    width: 45rem;
+    line-height: 1.3rem;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+}
+
+.banner__fade {
+    margin-top: 190px;
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37, 37, 37, 0.61),
+        #111
+    );
+}
